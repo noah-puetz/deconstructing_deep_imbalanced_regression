@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Puetz"
+    given-names: "Noah C."
+  - family-names: "Brandt"
+    given-names: "Jens U."
+  - family-names: "Hilbert"
+    given-names: "Marc"
+  - family-names: "Raponi"
+    given-names: "Elena"
+  - family-names: "Baeck"
+    given-names: "Thomas H. W."
+  - family-names: "Bartz-Beielstein"
+    given-names: "Thomas"
+title: "Deconstructing Deep Imbalance Regression: A Comprehensive Review and Experimental Evaluation"
+version: 1.0.0
+date-released: 2025-01-01
+url: "https://github.com/username/repo-name"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Puetz"
+      given-names: "Noah C."
+    - family-names: "Brandt"
+      given-names: "Jens U."
+    - family-names: "Hilbert"
+      given-names: "Marc"
+    - family-names: "Raponi"
+      given-names: "Elena"
+    - family-names: "Baeck"
+      given-names: "Thomas H. W."
+    - family-names: "Bartz-Beielstein"
+      given-names: "Thomas"
+  journal: "Springer Nature Computer Science"
+  title: "Deconstructing Deep Imbalance Regression: A Comprehensive Review and Experimental Evaluation"
+  year: 2025

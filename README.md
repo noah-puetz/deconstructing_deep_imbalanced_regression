@@ -160,8 +160,13 @@ The table below provides a comprehensive summary of the Deep Imbalanced Regressi
 
 If you use this code or benchmarks in your research, please cite our paper:
 
-```
-
+```bibtex
+@article{puetz2025dir,
+  title={Deconstructing Deep Imbalance Regression: A Comprehensive Review and Experimental Evaluation},
+  author={Puetz, Noah C. and Brandt, Jens U. and Hilbert, Marc and Raponi, Elena and Baeck, Thomas H. W. and Bartz-Beielstein, Thomas},
+  journal={Springer Nature Computer Science},
+  year={2025}
+}
 ```
 
 ## 📄 License
