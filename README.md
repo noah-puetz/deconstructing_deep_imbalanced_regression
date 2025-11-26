@@ -8,12 +8,11 @@ It contains a standardized, open-source reimplementation of **12 State-of-the-Ar
 
 ## 📖 About the Paper
 
-In real-world applications, data imbalance is the norm rather than the exception. While classification has established methods for handling imbalance, **DIR** presents unique challenges due to continuous target values, infinite target spaces, and the need for interpolation.
+**Abstract:** In real-world applications, there is often a fundamental problem: the data most critical to predict interesting events, anomalies, and high-stakes outliers are often the rarest, while less interesting data is abundant. Although deep learning is often used specifically for these difficult prediction tasks, data-driven models inevitably fail in underrepresented areas. This discrepancy between the empirical data distribution and the desired performance creates a severe target distribution shift. Deep imbalanced regression (DIR) has emerged explicitly to address this challenge, which is particularly acute for continuous targets where conventional classification-based method are often ill-suited.
 
-Our paper introduces a novel **Two-Axis Taxonomy** to disentangle these challenges:
+This paper follows a two folded approach. We start by providing the first comprehensive review of the DIR landscape by introducing a novel two-axis taxonomy that disentangles challenges along a Data Axis and a Deep-Learning Axis. We theoretically ground the failure of deep models in rare data regimes through the cascading mechanism of "Shared Capacity","Biased Update", and "Manifold Distortion". Within this framework, we systematically review 19 state-of-the-art methods across Architectural, Algorithm-Level, and Representation Learning categories.
 
-1. **The Data Axis:** Challenges arising from Target Distribution Shift, Target Continuity, and Label Density.
-2. **The Deep-Learning Axis:** How neural networks exacerbate these issues via Shared Capacity, Gradient Disparity, and Feature Collapse.
+Then to ground our analysis, we conduct an extensive empirical re-evaluation of twelve open-source methods. We propose an improved benchmark suite comprising three targeted protocols: Balanced Extrapolation, Bimodal Interpolation, and Blind-Spot Isolation, that statistically stress-test generalization across the full target range. Our study underscores the significant impact of imbalance on regression accuracy, offering a conceptual framework and practical benchmarks to catalyze further development of systems capable of capturing the rare as reliably as the common.
 
 *![Graphical Abstract](media/Graphical_Abstract_Repo.png) **Figure 1:** An illustration of the DIR problem. Standard models fail in sparse regions (a) unless supported by neighbors (b). Our taxonomy explores why this happens and how specific methods address it.*
 
