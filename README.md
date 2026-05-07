@@ -1,6 +1,6 @@
 # Deconstructing Deep Imbalanced Regression: A Comprehensive Review and Experimental Evaluation
 
-This repository is the official companion code for the paper **"Deconstructing Deep Imbalance Regression: A Comprehensive Review and Experimental Evaluation"**.
+This repository is the official companion code for the paper [**"Deconstructing Deep Imbalance Regression: A Comprehensive Review and Experimental Evaluation"**](https://link.springer.com/article/10.1007/s10462-026-11570-1)
 
 It contains a standardized, open-source reimplementation of **12 State-of-the-Art (SOTA) methods** for Deep Imbalanced Regression (DIR), along with the code to replicate our proposed benchmark suite (Extrapolation, Interpolation, and Blind-Spot protocols).
 
@@ -28,13 +28,13 @@ Standard benchmarks (like the default AgeDB split) often mask specific model fai
 <img src="media/AgeDB_Extrapolation.png" alt="drawing" width="400"/>
 </center>
 
-2. **Bimodal Interpolation:** Creates a gap in the training distribution (removing ages 36-64) to test if the model can bridge data-rich regions.
+1. **Bimodal Interpolation:** Creates a gap in the training distribution (removing ages 36-64) to test if the model can bridge data-rich regions.
 
 <center>
 <img src="media/AgeDB_Interpolation.png" alt="drawing" width="400"/>
 </center>
 
-3. **Blind-Spot Isolation:** Completely removes a specific target interval (ages 47-53) from training to test zero-shot generalization capabilities.
+1. **Blind-Spot Isolation:** Completely removes a specific target interval (ages 47-53) from training to test zero-shot generalization capabilities.
 
 <center>
 <img src="media/AgeDB_Blindspot.png" alt="drawing" width="400"/>
